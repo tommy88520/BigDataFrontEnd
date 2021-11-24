@@ -1,0 +1,63 @@
+.outsideContainner {
+  display: flex;
+  justify-content: center;
+  & .logo {
+    width: 100px;
+    height: 100px;
+    display: inline;
+    // position: absolute;
+  }
+  & .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // justify-content: center;
+    & .selectSection {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      max-width: 700px;
+      & .district {
+        font-size: 20px;
+        line-height: 50px;
+        width: 25%;
+        text-align: center;
+        border-radius: 5px;
+        // border:1px solid #c4c4c4;
+      }
+      & .district:hover {
+        background-color: #c4c4c4;
+        color: #ffffff;
+        transition: 0.5s;
+      }
+      & .formSelect {
+        border: 0px;
+        width: 75%;
+        height: 50px;
+        padding-left: 2px;
+        padding-right: 40px;
+        background-color: #f6f7f7;
+        color: #000000;
+        font-size: 1.2rem;
+        max-width: 700px;
+        text-align: center;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+      & .formSelect:hover {
+        background-color: #c4c4c4;
+        color: #ffffff;
+        transition: 0.5s;
+      }
+    }
+
+    & .charts {
+      max-width: 700px;
+      max-height: 700px;
+    }
+  }
+}
+// spinner
+.profile_top {
+  height: 100vh;
+}
